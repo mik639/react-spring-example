@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+}
+
+.accordion {
+  border: 1px solid #efefef;
+}
+
+.accordion__title {
+  padding: 10px;
+  background-color: #efefef;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accordion__outer-content {
+  overflow: hidden;
+}
+
+.accordion__inner-content {
+  padding: 10px;
+}
+
+.post {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 5px 0;
+}
+
+.post__title {
+  margin: 0 0 10px;
+  font-weight: 18px;
+}
+
+.post__content {
+  font-weight: 16px;
+}
+
+.posts__item {
+  margin-bottom: 20px;
+}
