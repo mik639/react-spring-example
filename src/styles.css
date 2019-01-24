@@ -25,6 +25,7 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 5px 0;
+  position: relative;
 }
 
 .post__title {
@@ -34,6 +35,12 @@
 
 .post__content {
   font-weight: 16px;
+}
+
+.post__remove {
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 .posts__item {
